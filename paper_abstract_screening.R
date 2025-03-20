@@ -6,4 +6,4 @@ devtools::install_github("EIvimeyCook/metRscreen")
 library(metRscreen)
 
 #open csv file of papers
-metRscreen(screen.file = normalizePath("./data/bat_search_string_results.csv"))
+metRscreen(screen.file = normalizePath("./abstract_screening_data/bat_search_string_results.csv"))
